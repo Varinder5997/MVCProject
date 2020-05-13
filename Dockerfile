@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/Kalinga_Hospital.war Kalinga_Hospital.war
-ENTRYPOINT ["java","-jar","/Kalinga_Hospital.war"]
+ADD target/Kalinga_Hospital-0.0.1-SNAPSHOT.war Kalinga_Hospital-0.0.1-SNAPSHOT.war
+ENTRYPOINT ["java","-jar","/Kalinga_Hospital-0.0.1-SNAPSHOT.war"]
